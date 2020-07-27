@@ -74,6 +74,7 @@ open class MarkerImage: NSObject, IMarker
     open func refreshContent(entry: ChartDataEntry, highlight: Highlight)
     {
         // Do nothing here...
+        print("Default method")
     }
     
     open func draw(context: CGContext, point: CGPoint)

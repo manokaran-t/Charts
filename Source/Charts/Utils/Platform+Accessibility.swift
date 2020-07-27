@@ -119,6 +119,7 @@ internal func accessibilityPostLayoutChangedNotification(withElement element: An
 internal func accessibilityPostScreenChangedNotification(withElement element: Any? = nil)
 {
     // Placeholder
+    print("required method")
 }
 
 /// A simple abstraction over UIAccessibilityElement and NSAccessibilityElement.

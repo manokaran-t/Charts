@@ -118,10 +118,12 @@ open class AnimatedViewPortJob: ViewPortJob
     internal func animationUpdate()
     {
        // Override this
+        print("Override method")
     }
     
     internal func animationEnd()
     {
         // Override this
+          print("Override method")
     }
 }
